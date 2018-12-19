@@ -3,7 +3,7 @@ function fib(n) {
   if (n <= 2) return 1
   return fib(n - 1) + fib(n - 2)
 }
-console.log('wwww');
+console.log('wwww1111');
 
 worker.onMessage(function (msg) {
   if (msg.type === 'execFunc_fib') {
